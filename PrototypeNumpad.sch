@@ -26,17 +26,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal_GND3 Y1
-U 1 1 5BB1A802
-P 4250 6750
-F 0 "Y1" H 4250 7018 50  0000 C CNN
-F 1 "Crystal_GND3" H 4250 6927 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering" H 4250 6750 50  0001 C CNN
-F 3 "~" H 4250 6750 50  0001 C CNN
-	1    4250 6750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5BB1AB53
 P 3950 6900
@@ -61,7 +50,7 @@ $EndComp
 Wire Wire Line
 	3950 7050 4250 7050
 Wire Wire Line
-	4250 7050 4250 7250
+	4250 7050 4250 7150
 Connection ~ 4250 7050
 Wire Wire Line
 	4250 6950 4250 7050
@@ -1712,4 +1701,26 @@ $EndComp
 Wire Wire Line
 	4000 1850 4600 1850
 Connection ~ 4600 1850
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5BBF5CB1
+P 4250 6750
+F 0 "Y1" H 4200 7100 50  0000 L CNN
+F 1 "Crystal_GND24" H 4000 7000 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering" H 4250 6750 50  0001 C CNN
+F 3 "~" H 4250 6750 50  0001 C CNN
+	1    4250 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 7150 4250 7150
+Connection ~ 4250 7150
+Wire Wire Line
+	4250 7150 4250 7250
+Wire Wire Line
+	4250 6550 4250 6500
+Wire Wire Line
+	4250 6500 3600 6500
+Wire Wire Line
+	3600 6500 3600 7150
 $EndSCHEMATC
