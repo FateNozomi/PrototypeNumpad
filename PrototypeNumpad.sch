@@ -1723,4 +1723,48 @@ Wire Wire Line
 	4250 6500 3600 6500
 Wire Wire Line
 	3600 6500 3600 7150
+$Comp
+L Mechanical:MountingHole MH0
+U 1 1 5BC3C1C0
+P 5500 6600
+F 0 "MH0" H 5600 6646 50  0000 L CNN
+F 1 "MountingHole" H 5600 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5500 6600 50  0001 C CNN
+F 3 "~" H 5500 6600 50  0001 C CNN
+	1    5500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5BC3CC1B
+P 5500 6800
+F 0 "MH1" H 5600 6846 50  0000 L CNN
+F 1 "MountingHole" H 5600 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5500 6800 50  0001 C CNN
+F 3 "~" H 5500 6800 50  0001 C CNN
+	1    5500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5BC3CCDF
+P 5500 7000
+F 0 "MH2" H 5600 7046 50  0000 L CNN
+F 1 "MountingHole" H 5600 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5500 7000 50  0001 C CNN
+F 3 "~" H 5500 7000 50  0001 C CNN
+	1    5500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5BC3CD9D
+P 5500 7200
+F 0 "MH3" H 5600 7246 50  0000 L CNN
+F 1 "MountingHole" H 5600 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5500 7200 50  0001 C CNN
+F 3 "~" H 5500 7200 50  0001 C CNN
+	1    5500 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
